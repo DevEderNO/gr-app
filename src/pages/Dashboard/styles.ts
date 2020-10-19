@@ -1,4 +1,6 @@
+import { FlatList } from 'react-native-gesture-handler';
 import styled, { css } from 'styled-components/native';
+import { IFood, ICategory } from '.';
 
 interface CategoryItemProps {
   isSelected?: boolean;
@@ -37,9 +39,11 @@ export const CategoryContainer = styled.View`
   margin-top: 40px;
 `;
 
-export const CategorySlider = styled.ScrollView`
-  margin-top: 16px;
-`;
+export const CategorySlider = styled(
+  FlatList as new () => FlatList<ICategory>,
+).attrs({
+  contentContainerStyle: { paddingHorizontal: 10, paddingTop: 16 },
+})``;
 
 export const CategoryItem = styled.TouchableOpacity<CategoryItemProps>`
   background-color: #f0f0f5;
@@ -75,11 +79,9 @@ export const FoodsContainer = styled.View`
   margin-top: 40px;
 `;
 
-export const FoodList = styled.View`
-  flex: 1;
-  padding: 0 20px;
-  margin-top: 16px;
-`;
+export const FoodList = styled(FlatList as new () => FlatList<IFood>).attrs({
+  contentContainerStyle: { paddingHorizontal: 20, paddingVertical: 16 },
+})``;
 
 export const Food = styled.TouchableOpacity`
   display: flex;

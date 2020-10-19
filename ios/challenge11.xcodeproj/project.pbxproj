@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* challenge11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* challenge11Tests.m */; };
-		036C50CF61D1EE1C2C01B216 /* libPods-challenge11-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C626D52A6496F94501992F5E /* libPods-challenge11-tvOS.a */; };
+		00E356F31AD99517003FC87E /* gorestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gorestaurantTests.m */; };
+		036C50CF61D1EE1C2C01B216 /* libPods-gorestaurant-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C626D52A6496F94501992F5E /* libPods-gorestaurant-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		232734638B030B9F1250483D /* libPods-challenge11.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CAE8CC9ADA298F320BC28 /* libPods-challenge11.a */; };
+		232734638B030B9F1250483D /* libPods-gorestaurant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CAE8CC9ADA298F320BC28 /* libPods-gorestaurant.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* challenge11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* challenge11Tests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* gorestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gorestaurantTests.m */; };
 		4F47F32424987BB3007A9642 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0EB4124917F2500C718A5 /* Poppins-Bold.ttf */; };
 		4F47F32524987BB3007A9642 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0EB4224917F2500C718A5 /* Poppins-Light.ttf */; };
 		4F47F32624987BB3007A9642 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0EB4324917F2500C718A5 /* Poppins-Medium.ttf */; };
 		4F47F32724987BB3007A9642 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0EB4424917F2500C718A5 /* Poppins-Regular.ttf */; };
 		4F47F32824987BB3007A9642 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE0EB4524917F2500C718A5 /* Poppins-SemiBold.ttf */; };
-		558AB136DFC4784B4EA0B4D3 /* libPods-challenge11-challenge11Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2029C89B3E08AC2BD5B47 /* libPods-challenge11-challenge11Tests.a */; };
-		9E89FC8768C9366B98D308C4 /* libPods-challenge11-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BF0411574DEA598B32FBE4 /* libPods-challenge11-tvOSTests.a */; };
+		558AB136DFC4784B4EA0B4D3 /* libPods-gorestaurant-gorestaurantTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2029C89B3E08AC2BD5B47 /* libPods-gorestaurant-gorestaurantTests.a */; };
+		9E89FC8768C9366B98D308C4 /* libPods-gorestaurant-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BF0411574DEA598B32FBE4 /* libPods-gorestaurant-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,71 +33,71 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = challenge11;
+			remoteInfo = gorestaurant;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "challenge11-tvOS";
+			remoteInfo = "gorestaurant-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* challenge11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = challenge11Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* gorestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gorestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* challenge11Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = challenge11Tests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* gorestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gorestaurantTests.m; sourceTree = "<group>"; };
 		0196405D6AA44E7C838D8B4E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		02F3152BABFCE3ECBC59CE87 /* Pods-challenge11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11.debug.xcconfig"; path = "Target Support Files/Pods-challenge11/Pods-challenge11.debug.xcconfig"; sourceTree = "<group>"; };
+		02F3152BABFCE3ECBC59CE87 /* Pods-gorestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant.debug.xcconfig"; path = "Target Support Files/Pods-gorestaurant/Pods-gorestaurant.debug.xcconfig"; sourceTree = "<group>"; };
 		04F8873A290A413C815F57FF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		088B0ECDAA054B77B286F618 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		08E6175A307A1AC943D4517D /* Pods-challenge11-challenge11Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11-challenge11Tests.debug.xcconfig"; path = "Target Support Files/Pods-challenge11-challenge11Tests/Pods-challenge11-challenge11Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		08E6175A307A1AC943D4517D /* Pods-gorestaurant-gorestaurantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant-gorestaurantTests.debug.xcconfig"; path = "Target Support Files/Pods-gorestaurant-gorestaurantTests/Pods-gorestaurant-gorestaurantTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E2F63EFC8EA43ECAE42059B /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* challenge11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = challenge11.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = challenge11/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = challenge11/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* gorestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gorestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = gorestaurant/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = gorestaurant/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = challenge11/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = challenge11/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = challenge11/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gorestaurant/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = gorestaurant/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gorestaurant/main.m; sourceTree = "<group>"; };
 		2C04125B0D7E487F816FAB8D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* challenge11-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenge11-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* challenge11-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challenge11-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* gorestaurant-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gorestaurant-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* gorestaurant-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gorestaurant-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AC138A57F24CC48C1DD690 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		43BECFA94D684100AC2706F6 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		4D9CAE8CC9ADA298F320BC28 /* libPods-challenge11.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge11.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9CAE8CC9ADA298F320BC28 /* libPods-gorestaurant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gorestaurant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE0EB4124917F2500C718A5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		4FE0EB4224917F2500C718A5 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		4FE0EB4324917F2500C718A5 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		4FE0EB4424917F2500C718A5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		4FE0EB4524917F2500C718A5 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		5EAA649B834D44ADAD4D0662 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		706760D506C97EDB5DF61D69 /* Pods-challenge11-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-challenge11-tvOSTests/Pods-challenge11-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		706760D506C97EDB5DF61D69 /* Pods-gorestaurant-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-gorestaurant-tvOSTests/Pods-gorestaurant-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		73BCA79544E04DD19168F2B9 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		843192C8CAC043BEAF9356C8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		96269399C5704624827380E3 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		97C7910B72074769A3F3275B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		A1D936E1261B8B0651872377 /* Pods-challenge11-challenge11Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11-challenge11Tests.release.xcconfig"; path = "Target Support Files/Pods-challenge11-challenge11Tests/Pods-challenge11-challenge11Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1D936E1261B8B0651872377 /* Pods-gorestaurant-gorestaurantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant-gorestaurantTests.release.xcconfig"; path = "Target Support Files/Pods-gorestaurant-gorestaurantTests/Pods-gorestaurant-gorestaurantTests.release.xcconfig"; sourceTree = "<group>"; };
 		A69E61C4DB524EBC87EE8E44 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		B11586623801C19E2A8A8DE7 /* Pods-challenge11-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-challenge11-tvOSTests/Pods-challenge11-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B11586623801C19E2A8A8DE7 /* Pods-gorestaurant-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-gorestaurant-tvOSTests/Pods-gorestaurant-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD23B0D2277F4AA5A5C095B8 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C0AC232CE96E42E8A62271BE /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		C4555E1A26AC4726984EF622 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		C626D52A6496F94501992F5E /* libPods-challenge11-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge11-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C626D52A6496F94501992F5E /* libPods-gorestaurant-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gorestaurant-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC09FA76F90B42359EC20B68 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
-		D0D2029C89B3E08AC2BD5B47 /* libPods-challenge11-challenge11Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge11-challenge11Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D2029C89B3E08AC2BD5B47 /* libPods-gorestaurant-gorestaurantTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gorestaurant-gorestaurantTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49040C8208F481DB709A6BD /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		D8C3C1E0EB794CD0B4D0CCD6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		D96EF2A2BD6E39FE7E26FE3E /* Pods-challenge11-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-challenge11-tvOS/Pods-challenge11-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DF658589B7754C0B01829C48 /* Pods-challenge11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11.release.xcconfig"; path = "Target Support Files/Pods-challenge11/Pods-challenge11.release.xcconfig"; sourceTree = "<group>"; };
-		E9BF0411574DEA598B32FBE4 /* libPods-challenge11-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge11-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96EF2A2BD6E39FE7E26FE3E /* Pods-gorestaurant-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-gorestaurant-tvOS/Pods-gorestaurant-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DF658589B7754C0B01829C48 /* Pods-gorestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant.release.xcconfig"; path = "Target Support Files/Pods-gorestaurant/Pods-gorestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		E9BF0411574DEA598B32FBE4 /* libPods-gorestaurant-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gorestaurant-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF7BAD1EDC354E988FF46E3A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		F816FB42C4004EBFBDA158EF /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		FEBD74FD1EFB1E9E649317C7 /* Pods-challenge11-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge11-tvOS.release.xcconfig"; path = "Target Support Files/Pods-challenge11-tvOS/Pods-challenge11-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FEBD74FD1EFB1E9E649317C7 /* Pods-gorestaurant-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gorestaurant-tvOS.release.xcconfig"; path = "Target Support Files/Pods-gorestaurant-tvOS/Pods-gorestaurant-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558AB136DFC4784B4EA0B4D3 /* libPods-challenge11-challenge11Tests.a in Frameworks */,
+				558AB136DFC4784B4EA0B4D3 /* libPods-gorestaurant-gorestaurantTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232734638B030B9F1250483D /* libPods-challenge11.a in Frameworks */,
+				232734638B030B9F1250483D /* libPods-gorestaurant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036C50CF61D1EE1C2C01B216 /* libPods-challenge11-tvOS.a in Frameworks */,
+				036C50CF61D1EE1C2C01B216 /* libPods-gorestaurant-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,20 +129,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E89FC8768C9366B98D308C4 /* libPods-challenge11-tvOSTests.a in Frameworks */,
+				9E89FC8768C9366B98D308C4 /* libPods-gorestaurant-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* challenge11Tests */ = {
+		00E356EF1AD99517003FC87E /* gorestaurantTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* challenge11Tests.m */,
+				00E356F21AD99517003FC87E /* gorestaurantTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = challenge11Tests;
+			path = gorestaurantTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -153,7 +153,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* challenge11 */ = {
+		13B07FAE1A68108700A75B9A /* gorestaurant */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -164,7 +164,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = challenge11;
+			name = gorestaurant;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -172,10 +172,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4D9CAE8CC9ADA298F320BC28 /* libPods-challenge11.a */,
-				D0D2029C89B3E08AC2BD5B47 /* libPods-challenge11-challenge11Tests.a */,
-				C626D52A6496F94501992F5E /* libPods-challenge11-tvOS.a */,
-				E9BF0411574DEA598B32FBE4 /* libPods-challenge11-tvOSTests.a */,
+				4D9CAE8CC9ADA298F320BC28 /* libPods-gorestaurant.a */,
+				D0D2029C89B3E08AC2BD5B47 /* libPods-gorestaurant-gorestaurantTests.a */,
+				C626D52A6496F94501992F5E /* libPods-gorestaurant-tvOS.a */,
+				E9BF0411574DEA598B32FBE4 /* libPods-gorestaurant-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,9 +223,9 @@
 				4FE0EB4324917F2500C718A5 /* Poppins-Medium.ttf */,
 				4FE0EB4424917F2500C718A5 /* Poppins-Regular.ttf */,
 				4FE0EB4524917F2500C718A5 /* Poppins-SemiBold.ttf */,
-				13B07FAE1A68108700A75B9A /* challenge11 */,
+				13B07FAE1A68108700A75B9A /* gorestaurant */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* challenge11Tests */,
+				00E356EF1AD99517003FC87E /* gorestaurantTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A0CCC5D72A5023BAEE7E2DA9 /* Pods */,
@@ -239,10 +239,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* challenge11.app */,
-				00E356EE1AD99517003FC87E /* challenge11Tests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* challenge11-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* challenge11-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* gorestaurant.app */,
+				00E356EE1AD99517003FC87E /* gorestaurantTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* gorestaurant-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* gorestaurant-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,14 +250,14 @@
 		A0CCC5D72A5023BAEE7E2DA9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02F3152BABFCE3ECBC59CE87 /* Pods-challenge11.debug.xcconfig */,
-				DF658589B7754C0B01829C48 /* Pods-challenge11.release.xcconfig */,
-				08E6175A307A1AC943D4517D /* Pods-challenge11-challenge11Tests.debug.xcconfig */,
-				A1D936E1261B8B0651872377 /* Pods-challenge11-challenge11Tests.release.xcconfig */,
-				D96EF2A2BD6E39FE7E26FE3E /* Pods-challenge11-tvOS.debug.xcconfig */,
-				FEBD74FD1EFB1E9E649317C7 /* Pods-challenge11-tvOS.release.xcconfig */,
-				B11586623801C19E2A8A8DE7 /* Pods-challenge11-tvOSTests.debug.xcconfig */,
-				706760D506C97EDB5DF61D69 /* Pods-challenge11-tvOSTests.release.xcconfig */,
+				02F3152BABFCE3ECBC59CE87 /* Pods-gorestaurant.debug.xcconfig */,
+				DF658589B7754C0B01829C48 /* Pods-gorestaurant.release.xcconfig */,
+				08E6175A307A1AC943D4517D /* Pods-gorestaurant-gorestaurantTests.debug.xcconfig */,
+				A1D936E1261B8B0651872377 /* Pods-gorestaurant-gorestaurantTests.release.xcconfig */,
+				D96EF2A2BD6E39FE7E26FE3E /* Pods-gorestaurant-tvOS.debug.xcconfig */,
+				FEBD74FD1EFB1E9E649317C7 /* Pods-gorestaurant-tvOS.release.xcconfig */,
+				B11586623801C19E2A8A8DE7 /* Pods-gorestaurant-tvOSTests.debug.xcconfig */,
+				706760D506C97EDB5DF61D69 /* Pods-gorestaurant-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -265,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* challenge11Tests */ = {
+		00E356ED1AD99517003FC87E /* gorestaurantTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "challenge11Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gorestaurantTests" */;
 			buildPhases = (
 				DB49DDE384C4E91BD057AF90 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -280,14 +280,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = challenge11Tests;
-			productName = challenge11Tests;
-			productReference = 00E356EE1AD99517003FC87E /* challenge11Tests.xctest */;
+			name = gorestaurantTests;
+			productName = gorestaurantTests;
+			productReference = 00E356EE1AD99517003FC87E /* gorestaurantTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* challenge11 */ = {
+		13B07F861A680F5B00A75B9A /* gorestaurant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challenge11" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gorestaurant" */;
 			buildPhases = (
 				9F5E3CB619DF35B5AF50EE9F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -301,14 +301,14 @@
 			);
 			dependencies = (
 			);
-			name = challenge11;
-			productName = challenge11;
-			productReference = 13B07F961A680F5B00A75B9A /* challenge11.app */;
+			name = gorestaurant;
+			productName = gorestaurant;
+			productReference = 13B07F961A680F5B00A75B9A /* gorestaurant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* challenge11-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* gorestaurant-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "challenge11-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gorestaurant-tvOS" */;
 			buildPhases = (
 				0C2B8004FAD6CB7D7513FCB9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -321,14 +321,14 @@
 			);
 			dependencies = (
 			);
-			name = "challenge11-tvOS";
-			productName = "challenge11-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* challenge11-tvOS.app */;
+			name = "gorestaurant-tvOS";
+			productName = "gorestaurant-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* gorestaurant-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* challenge11-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* gorestaurant-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "challenge11-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gorestaurant-tvOSTests" */;
 			buildPhases = (
 				179022FA669027AD8CD5459B /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -340,9 +340,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "challenge11-tvOSTests";
-			productName = "challenge11-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* challenge11-tvOSTests.xctest */;
+			name = "gorestaurant-tvOSTests";
+			productName = "gorestaurant-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* gorestaurant-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -371,7 +371,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challenge11" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "gorestaurant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -384,10 +384,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* challenge11 */,
-				00E356ED1AD99517003FC87E /* challenge11Tests */,
-				2D02E47A1E0B4A5D006451C7 /* challenge11-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* challenge11-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* gorestaurant */,
+				00E356ED1AD99517003FC87E /* gorestaurantTests */,
+				2D02E47A1E0B4A5D006451C7 /* gorestaurant-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* gorestaurant-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -461,7 +461,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-challenge11-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-gorestaurant-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -483,7 +483,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-challenge11-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-gorestaurant-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -510,7 +510,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-challenge11-challenge11Tests/Pods-challenge11-challenge11Tests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-gorestaurant-gorestaurantTests/Pods-gorestaurant-gorestaurantTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -549,7 +549,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challenge11-challenge11Tests/Pods-challenge11-challenge11Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gorestaurant-gorestaurantTests/Pods-gorestaurant-gorestaurantTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F5E3CB619DF35B5AF50EE9F /* [CP] Check Pods Manifest.lock */ = {
@@ -567,7 +567,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-challenge11-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-gorestaurant-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-challenge11/Pods-challenge11-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-gorestaurant/Pods-gorestaurant-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -619,7 +619,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-challenge11/Pods-challenge11-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gorestaurant/Pods-gorestaurant-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB49DDE384C4E91BD057AF90 /* [CP] Check Pods Manifest.lock */ = {
@@ -637,7 +637,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-challenge11-challenge11Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-gorestaurant-gorestaurantTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -689,7 +689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* challenge11Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* gorestaurantTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,7 +715,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* challenge11Tests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* gorestaurantTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,12 +724,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* challenge11 */;
+			target = 13B07F861A680F5B00A75B9A /* gorestaurant */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* challenge11-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* gorestaurant-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -741,7 +741,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = challenge11;
+			path = gorestaurant;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -749,14 +749,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08E6175A307A1AC943D4517D /* Pods-challenge11-challenge11Tests.debug.xcconfig */;
+			baseConfigurationReference = 08E6175A307A1AC943D4517D /* Pods-gorestaurant-gorestaurantTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = challenge11Tests/Info.plist;
+				INFOPLIST_FILE = gorestaurantTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -766,17 +766,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge11.app/challenge11";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorestaurant.app/gorestaurant";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1D936E1261B8B0651872377 /* Pods-challenge11-challenge11Tests.release.xcconfig */;
+			baseConfigurationReference = A1D936E1261B8B0651872377 /* Pods-gorestaurant-gorestaurantTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = challenge11Tests/Info.plist;
+				INFOPLIST_FILE = gorestaurantTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -786,13 +786,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge11.app/challenge11";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorestaurant.app/gorestaurant";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F3152BABFCE3ECBC59CE87 /* Pods-challenge11.debug.xcconfig */;
+			baseConfigurationReference = 02F3152BABFCE3ECBC59CE87 /* Pods-gorestaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -802,7 +802,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = challenge11/Info.plist;
+				INFOPLIST_FILE = gorestaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -810,7 +810,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = challenge11;
+				PRODUCT_NAME = gorestaurant;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -819,12 +819,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF658589B7754C0B01829C48 /* Pods-challenge11.release.xcconfig */;
+			baseConfigurationReference = DF658589B7754C0B01829C48 /* Pods-gorestaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = challenge11/Info.plist;
+				INFOPLIST_FILE = gorestaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -832,7 +832,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = challenge11;
+				PRODUCT_NAME = gorestaurant;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -840,7 +840,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D96EF2A2BD6E39FE7E26FE3E /* Pods-challenge11-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D96EF2A2BD6E39FE7E26FE3E /* Pods-gorestaurant-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -851,14 +851,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "challenge11-tvOS/Info.plist";
+				INFOPLIST_FILE = "gorestaurant-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.challenge11-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.gorestaurant-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -868,7 +868,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEBD74FD1EFB1E9E649317C7 /* Pods-challenge11-tvOS.release.xcconfig */;
+			baseConfigurationReference = FEBD74FD1EFB1E9E649317C7 /* Pods-gorestaurant-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -879,14 +879,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "challenge11-tvOS/Info.plist";
+				INFOPLIST_FILE = "gorestaurant-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.challenge11-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.gorestaurant-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -896,7 +896,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11586623801C19E2A8A8DE7 /* Pods-challenge11-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = B11586623801C19E2A8A8DE7 /* Pods-gorestaurant-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -906,24 +906,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "challenge11-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "gorestaurant-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.challenge11-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.gorestaurant-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge11-tvOS.app/challenge11-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorestaurant-tvOS.app/gorestaurant-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 706760D506C97EDB5DF61D69 /* Pods-challenge11-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 706760D506C97EDB5DF61D69 /* Pods-gorestaurant-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -933,17 +933,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "challenge11-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "gorestaurant-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.challenge11-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.gorestaurant-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge11-tvOS.app/challenge11-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorestaurant-tvOS.app/gorestaurant-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1064,7 +1064,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "challenge11Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gorestaurantTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1073,7 +1073,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "challenge11" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gorestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1082,7 +1082,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "challenge11-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gorestaurant-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1091,7 +1091,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "challenge11-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gorestaurant-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1100,7 +1100,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "challenge11" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "gorestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

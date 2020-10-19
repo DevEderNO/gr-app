@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Image, ScrollView } from 'react-native';
+import { Image, ScrollView, LogBox } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation } from '@react-navigation/native';
@@ -7,7 +7,7 @@ import Logo from '../../assets/logo-header.png';
 import SearchInput from '../../components/SearchInput';
 
 import api from '../../services/api';
-import formatValue from '../../utils/formatValue';
+// import formatValue from '../../utils/formatValue';
 
 import {
   Container,
@@ -28,7 +28,7 @@ import {
   FoodPricing,
 } from './styles';
 
-interface Food {
+export interface IFood {
   id: number;
   name: string;
   description: string;
@@ -37,15 +37,20 @@ interface Food {
   formattedPrice: string;
 }
 
-interface Category {
+export interface ICategory {
   id: number;
   title: string;
   image_url: string;
 }
 
+interface ISearch {
+  q: string | undefined;
+  category: number | undefined;
+}
+
 const Dashboard: React.FC = () => {
-  const [foods, setFoods] = useState<Food[]>([]);
-  const [categories, setCategories] = useState<Category[]>([]);
+  const [foods, setFoods] = useState<IFood[]>([]);
+  const [categories, setCategories] = useState<ICategory[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<
     number | undefined
   >();
@@ -55,11 +60,21 @@ const Dashboard: React.FC = () => {
 
   async function handleNavigate(id: number): Promise<void> {
     // Navigate do ProductDetails page
+    navigation.navigate('FoodDetails', { id });
   }
 
   useEffect(() => {
     async function loadFoods(): Promise<void> {
-      // Load Foods from API
+      const params = {} as ISearch;
+      if (searchValue) {
+        params.q = searchValue;
+      }
+      if (selectedCategory) {
+        params.category = selectedCategory;
+      }
+      api.get('/foods', { params }).then(response => {
+        setFoods(response.data);
+      });
     }
 
     loadFoods();
@@ -67,14 +82,20 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     async function loadCategories(): Promise<void> {
-      // Load categories from API
+      api.get('/categories').then(response => {
+        setCategories(response.data);
+      });
     }
 
     loadCategories();
   }, []);
 
+  useEffect(() => {
+    LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
+  }, []);
+
   function handleSelectCategory(id: number): void {
-    // Select / deselect category
+    setSelectedCategory(state => (state !== id ? id : undefined));
   }
 
   return (
@@ -99,13 +120,11 @@ const Dashboard: React.FC = () => {
         <CategoryContainer>
           <Title>Categorias</Title>
           <CategorySlider
-            contentContainerStyle={{
-              paddingHorizontal: 20,
-            }}
+            data={categories}
+            keyExtractor={category => String(category.id)}
             horizontal
             showsHorizontalScrollIndicator={false}
-          >
-            {categories.map(category => (
+            renderItem={({ item: category }) => (
               <CategoryItem
                 key={category.id}
                 isSelected={category.id === selectedCategory}
@@ -119,15 +138,19 @@ const Dashboard: React.FC = () => {
                 />
                 <CategoryItemTitle>{category.title}</CategoryItemTitle>
               </CategoryItem>
-            ))}
-          </CategorySlider>
+            )}
+          />
         </CategoryContainer>
         <FoodsContainer>
           <Title>Pratos</Title>
-          <FoodList>
-            {foods.map(food => (
+          <FoodList
+            data={foods}
+            keyExtractor={food => String(food.id)}
+            ListEmptyComponent={
+              <FoodTitle> ¯\_(ツ)_/¯ Nenhum prato encontrado.</FoodTitle>
+            }
+            renderItem={({ item: food }) => (
               <Food
-                key={food.id}
                 onPress={() => handleNavigate(food.id)}
                 activeOpacity={0.6}
                 testID={`food-${food.id}`}
@@ -144,8 +167,8 @@ const Dashboard: React.FC = () => {
                   <FoodPricing>{food.formattedPrice}</FoodPricing>
                 </FoodContent>
               </Food>
-            ))}
-          </FoodList>
+            )}
+          />
         </FoodsContainer>
       </ScrollView>
     </Container>

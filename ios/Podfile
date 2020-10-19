@@ -3,9 +3,9 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'challenge11' do
+target 'gorestaurant' do
 
-  target 'challenge11Tests' do
+  target 'gorestaurantTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -20,10 +20,10 @@ target 'challenge11' do
   end
 end
 
-target 'challenge11-tvOS' do
-  # Pods for challenge11-tvOS
+target 'gorestaurant-tvOS' do
+  # Pods for gorestaurant-tvOS
 
-  target 'challenge11-tvOSTests' do
+  target 'gorestaurant-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

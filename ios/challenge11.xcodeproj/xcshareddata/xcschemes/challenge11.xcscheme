@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "challenge11.app"
-               BlueprintName = "challenge11"
-               ReferencedContainer = "container:challenge11.xcodeproj">
+               BuildableName = "gorestaurant.app"
+               BlueprintName = "gorestaurant"
+               ReferencedContainer = "container:gorestaurant.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "challenge11Tests.xctest"
-               BlueprintName = "challenge11Tests"
-               ReferencedContainer = "container:challenge11.xcodeproj">
+               BuildableName = "gorestaurantTests.xctest"
+               BlueprintName = "gorestaurantTests"
+               ReferencedContainer = "container:gorestaurant.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "challenge11.app"
-            BlueprintName = "challenge11"
-            ReferencedContainer = "container:challenge11.xcodeproj">
+            BuildableName = "gorestaurant.app"
+            BlueprintName = "gorestaurant"
+            ReferencedContainer = "container:gorestaurant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "challenge11.app"
-            BlueprintName = "challenge11"
-            ReferencedContainer = "container:challenge11.xcodeproj">
+            BuildableName = "gorestaurant.app"
+            BlueprintName = "gorestaurant"
+            ReferencedContainer = "container:gorestaurant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
